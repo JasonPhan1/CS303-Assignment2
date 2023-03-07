@@ -177,4 +177,5 @@ size_t Single_Linked_List::find(const int item) {
     if (foundit == false) {
         cout << "Item not found. List size is " << iterator;
     }
+    return 0;
 }
